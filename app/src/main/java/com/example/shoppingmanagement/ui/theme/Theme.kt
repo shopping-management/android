@@ -44,6 +44,7 @@ fun ShoppingManagementTheme(
         MaterialTheme(
             colorScheme = colorScheme,
             typography = Typography,
+            shapes = Shapes,
             content = content
         )
     }
