@@ -22,6 +22,11 @@ val ColorScheme.darkBrown: Color
     @ReadOnlyComposable
     get() = if (LocalIsDarkTheme.current) DarkBrownDark else DarkBrownLight
 
+val ColorScheme.mediumBrown: Color
+    @Composable
+    @ReadOnlyComposable
+    get() = if (LocalIsDarkTheme.current) MediumBrownDark else MediumBrownLight
+
 val ColorScheme.lightBrown: Color
     @Composable
     @ReadOnlyComposable
