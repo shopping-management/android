@@ -69,3 +69,8 @@ val ColorScheme.lightRed: Color
     @Composable
     @ReadOnlyComposable
     get() = if (LocalIsDarkTheme.current) LightRedDark else LightRedLight
+
+val ColorScheme.inputFieldPlaceholder: Color
+    @Composable
+    @ReadOnlyComposable
+    get() = if (LocalIsDarkTheme.current) InputFieldPlaceholderDark else InputFieldPlaceholderLight

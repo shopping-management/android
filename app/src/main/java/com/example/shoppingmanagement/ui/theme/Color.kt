@@ -31,3 +31,6 @@ val MiddleRedLight = Color(0xFFFECACA)
 val MiddleRedDark = Color(0xFFC62828)
 val LightRedLight = Color(0xFFFFF1F1)
 val LightRedDark = Color(0xFF3E1B1B)
+
+val InputFieldPlaceholderLight = Color(0xFF8C8B91)
+val InputFieldPlaceholderDark = Color(0xFFB0B0B5)
